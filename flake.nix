@@ -6,6 +6,7 @@
 
     mcreator-releases = {
       url = "file+https://api.github.com/repos/MCreator/MCreator/releases";
+      hash = "sha256-2ONqVQwoBj3xAueV4HWQiAGuVVrm76eKryo7VBdgCDs=";
       flake = false;
     };
   };
