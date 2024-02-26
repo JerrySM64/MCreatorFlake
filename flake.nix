@@ -6,7 +6,6 @@
 
     mcreator-releases = {
       url = "file+https://api.github.com/repos/MCreator/MCreator/releases";
-      hash = "sha256-2ONqVQwoBj3xAueV4HWQiAGuVVrm76eKryo7VBdgCDs=";
       flake = false;
     };
   };
@@ -69,6 +68,7 @@
 
           src = fetchTarball
             "https://github.com/MCreator/MCreator/releases/download/${fullVersion}/MCreator.${version}.Linux.64bit.tar.gz";
+          hash = "sha256-2ONqVQwoBj3xAueV4HWQiAGuVVrm76eKryo7VBdgCDs=";
 
           installPhase = ''
             mkdir -p "$out/share/applications"
